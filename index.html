@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>My Portfolio</title>
+  <link href="style.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo">MyPortfolio</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#certificates">Certificate</a></li>
+        
+      </ul>
+      <li><button id="toggle-theme">🌙 Dark Mode</button></li>
+      <div class="profile-pic">
+        <img src="assets/profile.jpg" alt="Profile Picture">
+      </div>
+    </nav>
+  </header>
+  <section class="hero" id="home">
+    <h1>Hi, I'm <span class="name">Samir</span></h1>
+    <p class="tagline"><span id="typed"></span></p>
+    <a class="btn" href="#projects">See My Work</a>
+  </section>
+<section id="about">
+  <div class="about-container">
+    <div class="about-image">
+      <img src="assets/profile.jpg" alt="Profile Picture">
+    </div>
+    <div class="about-content">
+      <h2>👋 About Me</h2>
+      <p>
+        I am a final-year <b>B.Tech CSE student at Chandigarh University</b> with a strong passion for
+        <b>web development</b> and <b>UI/UX design</b>. I specialize in creating responsive,
+        user-friendly websites and intuitive digital experiences. My technical skills include
+        <b>HTML, CSS, JavaScript, React.js, SQL, and C++</b>, which help me build both
+        front-end designs and efficient backend systems. With a keen eye for design and problem-solving,
+        I aim to bridge creativity with technology while crafting impactful solutions that inspire,
+        engage, and solve real-world challenges effectively.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="skills" id="skills">
+  <h2>My Skills</h2>
+  <div class="skills-container">
+
+    <!-- Left Side: Technical Skills -->
+    <div class="skills-box">
+      <h3>Technical Skills</h3>
+      <div class="skill">
+        <p>Web Development</p>
+        <div class="progress-bar">
+          <div class="progress level-3"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <p>UI/UX Design</p>
+        <div class="progress-bar">
+          <div class="progress level-4"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <p>Responsive Design</p>
+        <div class="progress-bar">
+          <div class="progress level-3"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <p>Database Management (SQL)</p>
+        <div class="progress-bar">
+          <div class="progress level-3"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <p>Problem Solving</p>
+        <div class="progress-bar">
+          <div class="progress level-4"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Side: Languages -->
+    <div class="skills-box">
+      <h3>Programming Languages</h3>
+      <div class="skill">
+        <p>C++</p>
+        <div class="progress-bar">
+          <div class="progress level-4"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <p>Python</p>
+        <div class="progress-bar">
+          <div class="progress level-2"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <p>Java</p>
+        <div class="progress-bar">
+          <div class="progress level-1"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <p>JavaScript</p>
+        <div class="progress-bar">
+          <div class="progress level-2"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <p>SQL</p>
+        <div class="progress-bar">
+          <div class="progress level-4"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="projects" id="projects">
+  <h2>Projects</h2>
+  <div class="projects-container">
+
+    <div class="project-card">
+      <div class="project-image">
+        <img src="assets/download.jpg" alt="Matri Healthcare Website">
+      </div>
+      <div class="project-content">
+        <h3>Matri - Healthcare Website</h3>
+        <p>Matri is a healthcare platform offering appointment booking, medical resources, and a user-friendly
+          experience for patients.</p>
+      </div>
+      <a class="btn" href="Matri.html">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <div class="project-image">
+        <img src="assets/water-level-indicator.jpg" alt="Water Level Indicator">
+      </div>
+      <div class="project-content">
+        <h3>Water Level Indicator</h3>
+        <p>A responsive IoT-based water level monitoring system, showing live tank status and preventing overflow.</p>
+      </div>
+      <a class="btn" href="project2.html">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <div class="project-image">
+        <img src="assets/weather-app.jpg" alt="Weather App">
+      </div>
+      <div class="project-content">
+        <h3>Weather App</h3>
+        <p>A real-time weather forecast app powered by the OpenWeatherMap API with location-based updates.</p>
+      </div>
+      <a class="btn" href="project3.html">View Project</a>
+    </div>
+
+  </div>
+</section>
+<section class="certificates" id="certificates">
+  <h2>Certificates</h2>
+  <div class="certificates-container">
+
+    <div class="certificate-card">
+      <div class="certificate-image">
+        <img src="assets/JS.png" alt="Web Development Certificate">
+      </div>
+      <div class="certificate-content">
+        <h3>JavaScript</h3>
+        <p>Certified in JavaScript for deployment.</p>
+        <a class="btn" href="assets/JS.png" target="_blank">View Certificate</a>
+      </div>
+    </div>
+
+    <div class="certificate-card">
+      <div class="certificate-image">
+        <img src="assets/SQL.png" alt="SQL Certificate">
+      </div>
+      <div class="certificate-content">
+        <h3>SQL</h3>
+        <p>Certification in SQL queries, optimization, and relational database design.</p>
+        <a class="btn" href="assets/SQL.png" target="_blank">View Certificate</a>
+      </div>
+    </div>
+
+    <div class="certificate-card">
+      <div class="certificate-image">
+        <img src="assets/WC.png" alt="UI/UX Design Certificate">
+      </div>
+      <div class="certificate-content">
+        <h3>Mobile Communication</h3>
+        <p>Certified in Mobile Communicattion.</p>
+        <a class="btn" href="assets/WC.png" target="_blank">View Certificate</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+  <section class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:samir@example.com">samirkumar3771@gmail.com</a></p>
+    <p>
+      <a href="https://github.com/Samirkumar3771" target="_blank">GitHub</a> |
+      <a href="https://www.linkedin.com/in/samir-kumar-2b241b24b/" target="_blank">LinkedIn</a>
+    </p>
+    <a class="btn" download="" href="samir resume.pdf">Download Resume</a>
+  </section>
+  <footer>
+    <p>© 2025 Samir. All rights reserved.</p>
+  </footer>
+
+  <button id="topBtn" onclick="topFunction()" title="Go to top">↑</button>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
